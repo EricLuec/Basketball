@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useCallback, useState, useEffect } from "react";
 import Liste from './liste';
 
 const ScoreTracker = () => {
