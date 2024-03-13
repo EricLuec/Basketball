@@ -5,8 +5,8 @@ import History from './components/history';
 
 const App = () => {
   return (
-    <div className="grid grid-cols-3 h-screen">
-      <Team />
+    <div>
+      <Team class="max-w-sm rounded overflow-hidden shadow-lg" />
       <br></br>
       <br></br>
       <br></br>
