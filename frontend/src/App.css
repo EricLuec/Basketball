@@ -1,4 +1,4 @@
-
+@import 'mvp.css';
 .App {
   text-align: center;
   
@@ -37,4 +37,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Platzieren Sie die Komponenten gleichmäßig entlang der Hauptachse */
+  align-items: center; /* Zentrieren Sie die Komponenten vertikal */
 }

@@ -1,11 +1,10 @@
-
 import ScoreTracker from './ScoreTracker';
 import React from 'react';
 
 
 const Team = () => {
   return (
-    <div>
+    <div className="card">
       <ScoreTracker/>
     </div>
   );

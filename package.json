@@ -1,1 +1,5 @@
-{}
+{
+  "dependencies": {
+    "mvp.css": "^1.14.0"
+  }
+}
