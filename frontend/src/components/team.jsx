@@ -5,7 +5,7 @@ import React from 'react';
 
 const Team = () => {
   return (
-    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+    <div>
       <ScoreTracker/>
     </div>
   );
