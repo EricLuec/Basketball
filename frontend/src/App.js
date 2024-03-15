@@ -6,10 +6,10 @@ import History from './components/history';
 const App = () => {
   return (
     <div className="container">
-    <Team />
-    <History />
-    <Team />
-  </div>
+      <Team className="tweak"/>
+      <History className="tweak" />
+      <Team className="tweak"/>
+    </div>
   );
 };
 

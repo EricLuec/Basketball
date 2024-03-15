@@ -53,4 +53,16 @@
   display: flex;
   justify-content: space-between; /* Platzieren Sie die Komponenten gleichmäßig entlang der Hauptachse */
   align-items: center; /* Zentrieren Sie die Komponenten vertikal */
+
+}
+
+
+
+.tweak {
+  display: inline-block;
+  width: calc(100% / 3); /* Teilt den verfügbaren Platz in drei gleich große Teile */
+  box-sizing: border-box; /* Berücksichtigt auch Padding und Border in der Breite */
+  border: 1px solid #ccc;
+  margin: 0;
+  font-size: 16px; /* Setzt die Schriftgröße zurück, falls benötigt */
 }

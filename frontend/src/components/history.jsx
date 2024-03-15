@@ -4,7 +4,7 @@ import Liste from './liste';
 const History = () => {
   return (
     <div className="card">
-      <img src="/court.webp" alt="Basketball Court" />
+      <img src="/court.webp" alt="Basketball Court"/>
       {/* <Liste /> */}
     </div>
   );
